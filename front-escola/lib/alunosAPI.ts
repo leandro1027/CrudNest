@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { Aluno } from '@/types/Aluno';
+import { Aluno } from '../types/Aluno';
 
 const api = axios.create({
     baseURL: 'http://localhost:3005/alunos'

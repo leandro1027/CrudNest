@@ -28,7 +28,7 @@ export default function listaAlunos() {
 return (
     <div>
         <h1>Lista de alunos</h1>
-        <link href="/alunos/new">+  Novo Aluno</link>
+        <Link href="/alunos/new">Novo Aluno</Link>
         <ul>
             {alunos.map((a) => (
                 <li key={a.id}>
