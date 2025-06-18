@@ -6,7 +6,7 @@ import { createAluno,} from "@/lib/alunosAPI";
 import { Aluno } from "@/types/Aluno";
 
 export default function NovoAluno(){
-    const [form, setForm]= useState<Aluno>({nome: '', idade: '0', curso: ''});
+    const [form, setForm]= useState<Aluno>({nome: '', idade: 0, curso: ''});
     const router = useRouter();
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) =>{

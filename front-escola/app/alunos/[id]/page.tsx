@@ -10,7 +10,7 @@ export default function EditarAluno() {
     const params = useParams();
     const id = Number(params.id);
 
-    const [form, setForm] = useState<Aluno>({nome: '', idade: '0', curso: ''});
+    const [form, setForm] = useState<Aluno>({nome: '', idade: 0, curso: ''});
 
     useEffect(() => {
         if(id){
