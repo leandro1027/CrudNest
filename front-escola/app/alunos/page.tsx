@@ -21,7 +21,6 @@ export default function listaAlunos() {
     if(confirm("Deseja remover?")){
         await deleteAluno(id);
         carregar();
-    
     }
 };
 
